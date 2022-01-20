@@ -14,13 +14,13 @@ function About() {
 
             <p className="fs-4 p-custom">
               Insert cleverly worded info about me that takes up at least 2-4
-              lines of text here. Font size will likely need to be adjusted.{" "}
+              lines of text here. Font size will likely need to be adjusted.
             </p>
-            <button className="p-custom font-weight-bold">View My Resume</button>
+            <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing"><button className="p-custom font-weight-bold">View My Resume</button></a>
           </div>
 
           <div className="col-md-4 border border-secondary">
-            <img className="w-100" src={grace} alt="Grace profile photo" />
+            <img className="w-100 rounded" src={grace} alt="Grace profile photo" />
           </div>
         </div>
       </div>

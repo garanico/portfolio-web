@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div class="navigation">
+        <div class="navigation sticky-top">
         <h3 class="float-md-start mb-0 text-black h2-custom">
           <a class="nav-link navbar-brand text-black nav-h1-custom" href="/">g.</a>
         </h3>
