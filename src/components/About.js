@@ -27,7 +27,7 @@ function About() {
             </p>
 
             <p className="fs-5 font-lato">
-              Outside of coding,you can find me spending time with my family, my pup Bruno, and exploring new skills.  My latest venture is learning how to skateboard.
+              Outside of coding, you can find me spending time with my family, my pup Bruno, and exploring new skills. My latest venture is learning how to skateboard.
               </p>
             <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing">
               <button className="font-lato">view my resume</button>
