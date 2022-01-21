@@ -1,19 +1,17 @@
 /* Global Styles */
 
-.h2-custom{
+.font-playfair{
   font-family: "Playfair Display", serif;
   font-weight: bold;
   /* color: #FE3346; */
   /* color: #ff007f; */
-  color: #fe019a;
 }
 
-.p-custom{
+.font-lato{
   font-family: "Lato", sans-serif;
 }
 
 button{
-  /* background-color: #24B59D; */
   background-color: #26ffe9;
   border-style: none;
   padding: 10px;
@@ -21,6 +19,20 @@ button{
   width: 150px;
   text-align: center;
 }
+
+.color-hotpink{
+  color: #fe019a;
+}
+
+.color-teal{
+  color: #26ffe9;
+}
+
+.custom-black{
+  color: #1F1C1E;
+}
+
+/* Nav Bar Styles */
 
 .nav-container{
   height: 50px;
@@ -32,40 +44,37 @@ button{
 }
 
 .nav-h1-custom{
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 36px;
 }
 
 .nav-logo{
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 36px;
 }
 
+
+/* About Page Styles */
 .fab, .fas, .far{
   font-size: 30px;
   margin: 0 10px 0 10px;
   color: #1F1C1E;
 }
+
 .skill-text{
   font-size: 16px;
 }
 
 .skill-icon{
   font-size: 45px;
+  text-align: center;
 }
 
 .icon-container{
   padding: 10px;
 }
 
-.connect-span{
-  color: green;
-}
 .bg-contact{
-  /* background-color:#2ec4b6; */
-  /* background-color: #87d3cf; */
   background-color: #F0EFED;
 }
 
@@ -74,7 +83,6 @@ button{
 
 .card-btn{
   background-color: #1F1C1E;
-  color:#F0EFED;
   border-style: none;
   padding: 7px;
   margin-left: 10px;
