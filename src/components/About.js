@@ -5,7 +5,7 @@ import grace from "../img/grace.jpg";
 function About() {
   return (
     // Profile Section
-    <div className="about-container pt-5 mb-4 rounded-3">
+    <div className="about-container pt-5 mb-4 rounded-3 overflow-hidden">
       <div className="container">
         <div className="row rounded-3 p-3">
           <div className="col-md-8">
@@ -20,14 +20,15 @@ function About() {
             </p>
 
             <p className="fs-5 font-lato">
-              {" "}
               It's important to me that technology nurtures community,
               inclusivity, and knowledge. My goal is to make beautifully
               designed applications that create meaningful change in people's
               lives.
             </p>
 
-            <p className="fs-5 font-lato">Outside of coding, you can find me</p>
+            <p className="fs-5 font-lato">
+              Outside of coding,you can find me spending time with my family, my pup Bruno, and exploring new skills.  My latest venture is learning how to skateboard.
+              </p>
             <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing">
               <button className="font-lato">view my resume</button>
             </a>
