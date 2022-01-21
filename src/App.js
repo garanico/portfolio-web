@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
+//components
+import About from './components/About';
+import Footer from './components/Footer'
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Homepage from './components/Homepage';
+
 function App() {
+  const [currentPage, setCurrentPage] = useState('/')
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <Navbar />
+          <Routes>
+              <Route exact path="/" element={<Homepage/>} />
+          </Routes>
+
+          <Routes>
+              <Route exact path="/about" element={<About/>} />
+          </Routes>
+          <Routes>
+              <Route exact path="Projects" element={<Projects/>} />
+          </Routes>
+        <Footer />
+      </HashRouter>
+      
+      
     </div>
   );
 }
