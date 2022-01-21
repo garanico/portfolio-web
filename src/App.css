@@ -1,4 +1,7 @@
 /* Global Styles */
+.App{
+  height: 100vh;
+}
 
 .font-playfair{
   font-family: "Playfair Display", serif;

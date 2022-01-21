@@ -5,7 +5,7 @@ import grace from "../img/grace.jpg";
 function About() {
   return (
     // Profile Section
-    <div className="about-container pt-5 mb-4 rounded-3 overflow-hidden">
+    <div className="about-container pt-5 mb-4 rounded-3 overflow-auto flex-shrink-0">
       <div className="container">
         <div className="row rounded-3 p-3">
           <div className="col-md-8">

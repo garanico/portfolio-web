@@ -4,14 +4,13 @@ import '../App.css';
 function Projects() {
   return (
 
-<div className="project-container pt-5 d-flex">
+<div className="project-container pt-5 d-flex overflow-auto flex-grow-1">
 
     <div className="row">
         <div className="project-header">
             <h3 className="font-lato text-center">take a look at my <h1 className="font-playfair color-hotpink"> projects</h1></h3>
-            
-
         </div>
+
         {/* Card 1 */}
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-4">
             <div className="card text-dark pc-overlay pc-img-1">
@@ -38,7 +37,7 @@ function Projects() {
 
                     <div className="card-btn-container d-flex justify-content-center">
                         <a href="https://github.com/luceroweb/haunted-house-game"><button className="card-btn font-lato text-white">code</button></a>
-                        <a href="https://luceroweb.github.io/haunted-house-game/#/"><button className="card-btn font-lato text-white">live site</button></a>
+                        <a href="https://luceroweb.github.io/haunted-house-game/#/"><button className="card-btn font-lato fw-bold text-white">live site</button></a>
                     </div>
                 </div>
             </div>

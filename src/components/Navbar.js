@@ -7,7 +7,7 @@ function Navbar({ currentPage, setCurrentPage }) {
 
 
     return (
-        <div class="navigation fixed-top">
+        <div class="navigation sticky-top bg-white">
         <h3 class="float-md-start mb-0 custom-black h2-custom">
           <Link 
           className="nav-link navbar-brand custom-black fw-bold font-playfair nav-h1-custom" 

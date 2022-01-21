@@ -4,7 +4,7 @@ import grace from "../img/grace.jpg";
 
 function Homepage() {
   return (
-  <div className="homepage-container pt-5 rounded-3">
+  <div className="homepage-container pt-5 rounded-3 overflow-auto flex-shrink-0">
       <div className="container">
         <div className="row rounded-3 p-3">
           <div className="col-md-8">
