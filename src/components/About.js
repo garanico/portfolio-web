@@ -4,23 +4,41 @@ import grace from "../img/grace.jpg";
 
 function About() {
   return (
-
     // Profile Section
     <div className="about-container pt-5 mb-4 rounded-3">
       <div className="container">
         <div className="row rounded-3 p-3">
           <div className="col-md-8">
-            <h1 className="display-5 fw-bold font-playfair color-hotpink">about me</h1>
+            <h1 className="display-5 fw-bold font-playfair color-hotpink">
+              about me
+            </h1>
 
-            <p className="fs-4 font-lato">
-              Insert cleverly worded info about me that takes up at least 2-4
-              lines of text here. Font size will likely need to be adjusted.
+            <p className="fs-5 font-lato">
+              I'm a front-end developer with a background in digital marketing
+              and project management. My 10+ years in digital marketing has
+              shaped how I approach programming.
             </p>
-            <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing"><button className="font-lato">view my resume</button></a>
+
+            <p className="fs-5 font-lato">
+              {" "}
+              It's important to me that technology nurtures community,
+              inclusivity, and knowledge. My goal is to make beautifully
+              designed applications that create meaningful change in people's
+              lives.
+            </p>
+
+            <p className="fs-5 font-lato">Outside of coding, you can find me</p>
+            <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing">
+              <button className="font-lato">view my resume</button>
+            </a>
           </div>
 
           <div className="col-md-4">
-            <img className="w-100 rounded" src={grace} alt="Grace profile photo" />
+            <img
+              className="w-100 rounded"
+              src={grace}
+              alt="Grace profile photo"
+            />
           </div>
         </div>
       </div>
@@ -96,34 +114,40 @@ function About() {
           </div>
         </div>
       </div>
-        {/* Contact Section */}
-    <div className="contact-container bg-contact pt-5 my-0">
-        <h2 className="font-playfair color-hotpink text-center">Let's Connect! </h2>
+      {/* Contact Section */}
+      <div className="contact-container bg-contact pt-5 my-0">
+        <h2 className="font-playfair color-hotpink text-center">
+          Let's Connect!{" "}
+        </h2>
         <div className="connect-text d-flex flex-wrap justify-content-center">
-            <p className="font-lato text-left">
-              If you ever want to have a fun discussion about Harry Potter or just want a quick chat, you can find me on social media or you can send me an email.
-            </p>
-            <div className="social-icons border border-success">
-                <div className="d-flex flex-wrap justify-content-center">
-                    <button className="d-flex mb-4 justify-content-center font-lato font-weight-bold">email me</button>
-                </div>
+          <p className="font-lato text-left">
+            If you ever want to have a fun discussion about Harry Potter or just
+            want a quick chat, you can find me on social media or you can send
+            me an email.
+          </p>
+          <div className="connect-container border border-success">
+            <div>
+              <button className="mb-4 font-lato fw-bold text-center">
+                email me
+              </button>
+            </div>
 
-                <a href="https://github.com/garanico">
-                    <i className="fab fa-github-square"></i>
-                </a>
+            <div className="social-icons d-flex flex-wrap">
+              <a href="https://github.com/garanico">
+                <i className="fab fa-github-square"></i>
+              </a>
 
-                <a href="https://linkedin.com/in/gracearanico/">
-                    <i className="fab fa-linkedin"></i>
-                </a>
+              <a href="https://linkedin.com/in/gracearanico/">
+                <i className="fab fa-linkedin"></i>
+              </a>
 
-                <a href="https://instagram.com/gracieissoamzin">
-                    <i className="fab fa-instagram"></i>
-                </a>
+              <a href="https://instagram.com/gracieissoamzin">
+                <i className="fab fa-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
-
-
+      </div>
     </div>
   );
 }
