@@ -118,22 +118,21 @@ function About() {
       {/* Contact Section */}
       <div className="contact-container bg-contact pt-5 my-0">
         <h2 className="font-playfair color-hotpink text-center">
-          Let's Connect!{" "}
+          Let's Connect!
         </h2>
-        <div className="connect-text d-flex flex-wrap justify-content-center">
+        <div className="connect-text d-flex justify-content-center">
           <p className="font-lato text-left">
             If you ever want to have a fun discussion about Harry Potter or just
             want a quick chat, you can find me on social media or you can send
-            me an email.
-          </p>
-          <div className="connect-container border border-success">
-            <div>
-              <button className="mb-4 font-lato fw-bold text-center">
+            me an email. adding more text to see what happens.
+          </p>  
+        </div>
+        <div className="connect-container border border-success d-flex flex-column mx-auto w-25">
+              <button className="mb-4 font-lato fw-bold ">
                 email me
               </button>
-            </div>
 
-            <div className="social-icons d-flex flex-wrap">
+            <div className="social-icons">
               <a href="https://github.com/garanico">
                 <i className="fab fa-github-square"></i>
               </a>
@@ -147,7 +146,6 @@ function About() {
               </a>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
