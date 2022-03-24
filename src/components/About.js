@@ -128,7 +128,7 @@ function About() {
           </p>  
         </div>
         <div className="connect-container border border-success d-flex flex-column mx-auto w-25">
-              <button className="mb-4 font-lato fw-bold ">
+              <button className="mb-4 font-lato fw-bold">
                 email me
               </button>
 
