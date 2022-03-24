@@ -5,7 +5,7 @@ import grace from "../img/grace.jpg";
 function About() {
   return (
     // Profile Section
-    <div className="about-container pt-5 mb-4 rounded-3 overflow-auto flex-shrink-0">
+    <div className="about-container pt-5 rounded-3 overflow-auto flex-shrink-0">
       <div className="container">
         <div className="row rounded-3 p-3">
           <div className="col-md-8">
@@ -127,7 +127,7 @@ function About() {
             me an email. adding more text to see what happens.
           </p>  
         </div>
-        <div className="connect-container border border-success d-flex flex-column mx-auto w-25">
+        <div className="connect-container align-items-center border border-success d-flex flex-column mx-auto w-25 pb-5">
               <button className="mb-4 font-lato fw-bold">
                 email me
               </button>
