@@ -127,21 +127,21 @@ function About() {
             me an email. adding more text to see what happens.
           </p>  
         </div>
-        <div className="connect-container align-items-center border border-success d-flex flex-column mx-auto w-25 pb-5">
+        <div className="connect-container align-items-center d-flex flex-column mx-auto w-25 pb-4">
               <button className="mb-4 font-lato fw-bold">
                 email me
               </button>
 
             <div className="social-icons">
-              <a href="https://github.com/garanico">
+              <a href="https://github.com/garanico" target="_blank">
                 <i className="fab fa-github-square"></i>
               </a>
 
-              <a href="https://linkedin.com/in/gracearanico/">
+              <a href="https://linkedin.com/in/gracearanico/" target="_blank">
                 <i className="fab fa-linkedin"></i>
               </a>
 
-              <a href="https://instagram.com/gracieissoamzin">
+              <a href="https://instagram.com/gracieissoamzin" target="_blank">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>

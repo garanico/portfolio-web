@@ -16,15 +16,15 @@ function Homepage() {
             <div className="d-flex justify-content-evenly">
             <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing"><button className="font-lato">view my resume</button></a>
             
-                <a href="https://github.com/garanico">
+                <a href="https://github.com/garanico" target="_blank">
                     <i className="fab fa-github-square"></i>
                 </a>
 
-                <a href="https://linkedin.com/in/gracearanico/">
+                <a href="https://linkedin.com/in/gracearanico/" target="_blank">
                     <i className="fab fa-linkedin"></i>
                 </a>
 
-                <a href="https://instagram.com/gracieissoamzin">
+                <a href="https://instagram.com/gracieissoamzin" target="_blank">
                     <i className="fab fa-instagram"></i>
                 </a>
                 </div>
