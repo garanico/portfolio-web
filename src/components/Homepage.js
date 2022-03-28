@@ -14,7 +14,7 @@ function Homepage() {
               A Front-End Web Developer passionate about creating digital experiences that are equal parts functional and beautiful.
             </p>
             <div className="d-flex justify-content-evenly">
-            <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing"><button className="font-lato">view my resume</button></a>
+            <a href="https://docs.google.com/document/d/18B1npZHOXn3Nf14tNUh4L3ckASPbNT3-sL3aNJ3FAOQ/edit?usp=sharing" target="_blank"><button className="font-lato">view my resume</button></a>
             
                 <a href="https://github.com/garanico" target="_blank">
                     <i className="fab fa-github-square"></i>
@@ -38,7 +38,8 @@ function Homepage() {
       </div>
 
 
-  </div>)
+  </div>
+  )
 }
 
 export default Homepage;
